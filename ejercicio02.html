@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> EJERCICIO 02 FORMULARIO HTML</title>
+    </head>
+    <body>
+            <form action="/" method="/">
+            <div>
+            <label for="resultados.html">Nombre de usuario</label>
+            <input type="text"  name="nombreusuario" id="nombreusuario" required/> <!-- solo acepta texto type=text-->
+            </div>
+            <div>
+            <label for="edad">Cual es tu edad?</label>
+            <input type="number" name="edad" id="edad" min="10" max="80" required/> <!--solo numeros type=number-->
+            </div>
+            <div>
+            <label for="comentarios">Escribe tu frase favorita</label>
+            <textarea type="texto" name="comentarios" id="comentarios"></textarea>
+            </div>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </form>   
+    </body>
+</html> 
